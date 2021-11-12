@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'tasklist/style.css' %}">
+    <title>Home Page</title>
+</head>
+<body>
+    <ul>
+    <div class="topnav">
+        <a href="/hello/">Home</a>
+        <a href="/tasklist/add">Add</a>
+        <a href="/hello/contact.html">Contact</a>
+        <a href="/hello/about.html">About</a>
+    </div> 
+    </ul>
+
+    {% block content %}
+
+    {% endblock %}
+</body>
+</html>

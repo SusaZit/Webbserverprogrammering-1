@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f77472;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #ffff;
+
+}
+
+.topnav a{
+    float: left;
+    color:grey;
+    font-size:17px;
+    text-align: center;
+    text-decoration: none;
+    padding:14px 30px;
+    font-family: 'Ubuntu';
+}
+
+.topnav a:hover{
+    background-color: grey;
+    color: #fff;
+}
+
+.topnav a.active{
+    background-color: #04aa6d;
+    color: white;
+}
+
+.row{
+    font-family: 'Ubuntu';
+    position:absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    color: #fff;	
+}
+
+.row2{
+    font-family: 'Ubuntu';
+    position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    color: #fff;	
+}
+
+#circle{
+    width: 150px;
+    height: 150px;
+    background: url(../img/sol.jpg);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 44%;
+}
+#circle3{
+    width: 150px;
+    height: 150px;
+    background: url(../img/sol.jpg);
+    border-radius: 50%;
+    position: absolute;
+    top: 55%;
+    left: 64%;
+}
+#circle2{
+    width: 150px;
+    height: 150px;
+    background: url(../img/sol.jpg);
+    border-radius: 50%;
+    left: 25%;
+    top: 55%;
+    position: absolute;
+}
+h2{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Ubuntu';
+}
+
+p{
+    color: #fff;
+    font-size: 12px ;
+    font-family: 'Ubuntu';
+}
+.space{
+    flex: 33,33%;
+    max-width: 33,33%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+}
+
+.text-align{
+    
+}
